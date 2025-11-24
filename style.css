@@ -164,7 +164,7 @@ main {
 .card-container p {
     text-align: left;
     color: var(--tertiary-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 1rem;
 }
 /* Card moderno */
@@ -228,6 +228,59 @@ main {
     transform: translateY(-1px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Nome da tecnologia */
+.card-header h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+/* Badge com ano de criação */
+.badge-ano {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background-color: #111827;
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid var(--tertiary-color);
+}
+/* Chips de tags */
+.tag-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0;
+    margin: 0.25rem 0 0.75rem 0;
+}
+
+.tag-chip {
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background-color: rgba(138, 180, 248, 0.12);
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    border: 1px solid rgba(138, 180, 248, 0.4);
+}
+/* Descrição do card */
+.card-descricao {
+    margin: 0.35rem 0;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    color: var(--secondary-color);
+    text-align: left;
+}
 
 .footer {
     /* Deixa o fluxo normal da página cuidar da posição */
@@ -264,59 +317,59 @@ main {
 }
 
 @media (max-width: 768px) {
-    header { /* Estilos para telas com largura máxima de 768px */
-        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
-        padding: 1rem; /* Reduz o espaçamento interno */
+    header {
+        flex-direction: column;
+        padding: 1rem;
     }
 
-    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto */
-        margin-bottom: 1rem; /* Adiciona margem inferior */
+    header h1 {
+        text-align: center;
+        margin-bottom: 1rem;
     }
 
-    .search-container input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Largura baseada na largura da viewport */
-        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    .search-container input {
+        width: 90vw;
+        font-size: 1.2rem;
     }
 
-    main { /* Estilos para o main em telas menores */
-        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    main {
+        padding: 0 1rem;
     }
 
-    article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    .card:hover {
+        transform: none;
     }
 }
 
 @media (max-width: 480px) {
-    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
-        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
-        max-width: 70%; /* Define uma largura máxima */
-        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    header h1 {
+        font-size: 1rem;
+        max-width: 70%;
+        word-wrap: break-word;
     }
 
-    .search-container input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    .search-container input,
     .search-container input::placeholder {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
+        font-size: 1rem;
     }
 
-    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
-        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    .card-header h2 {
+        font-size: 1.2rem;
     }
 
-    .search-container { /* Estilos para a div do cabeçalho em telas muito pequenas */
-        display: flex; /* Habilita flexbox */
-        align-items: center; /* Alinha itens ao centro */
-        justify-content: center; /* Centraliza itens */
-        flex-direction: column; /* Organiza em coluna */
-        gap: 0.5rem; /* Espaçamento entre os itens */
+    .search-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
-    .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
+    .footer {
+        display: none;
     }
 
-    #botao-busca { /* Estilos para o botão em telas muito pequenas */
-        margin-top: 1rem; /* Adiciona margem no topo */
+    #botao-busca {
+        margin-top: 1rem;
     }
 }

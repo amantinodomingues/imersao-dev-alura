@@ -169,12 +169,23 @@ function renderizarCards(dados) {
         const ano = dado.ano || dado.data_criacao || '-';
         const link = dado.link || '#';
 
+        const tags = Array.isArray(dado.tags) ? dado.tags : [];
+        const tagsHtml = tags.length
+            ? `<ul class="tag-list">
+                    ${tags.map(tag => `<li class="tag-chip">${tag}</li>`).join('')}
+               </ul>`
+            : '';
+
         article.innerHTML = `
-            <h2>${dado.nome}</h2>
-            <p><strong>Ano de criação:</strong> ${ano}</p>
-            <p>${dado.descricao}</p>
+            <header class="card-header">
+                <h2>${dado.nome}</h2>
+                <span class="badge-ano">${ano}</span>
+            </header>
+            ${tagsHtml}
+            <p class="card-descricao">${dado.descricao}</p>
             <a href="${link}" target="_blank" rel="noopener noreferrer">Saiba mais</a>
         `;
+
         cardContainer.appendChild(article);
     }
 }

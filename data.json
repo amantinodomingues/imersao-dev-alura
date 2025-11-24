@@ -1,0 +1,356 @@
+[
+  {
+    "nome": "JavaScript",
+    "descricao": "O JS é a linguagem da web",
+    "ano": 1995,
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+  },
+  {
+    "nome": "Python",
+    "descricao": "O Python é uma linguagem de programação",
+    "ano": 1991,
+    "link": "https://www.python.org"
+  },
+  {
+    "nome": "Java",
+    "descricao": "Java é uma linguagem de programação orientada a objetos, popular para aplicações corporativas.",
+    "ano": 1995,
+    "link": "https://www.java.com/pt-BR/"
+  },
+  {
+    "nome": "C#",
+    "descricao": "C# (C Sharp) é uma linguagem de programação moderna, orientada a objetos e desenvolvida pela Microsoft.",
+    "ano": 2000,
+    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+  },
+  {
+    "nome": "PHP",
+    "descricao": "PHP é uma linguagem de script do lado do servidor amplamente utilizada para desenvolvimento web.",
+    "ano": 1995,
+    "link": "https://www.php.net/"
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática opcional à linguagem.",
+    "ano": 2012,
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "nome": "Go",
+    "descricao": "Go (ou Golang) é uma linguagem de programação compilada e concorrente desenvolvida pelo Google.",
+    "ano": 2009,
+    "link": "https://go.dev/"
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Rust é uma linguagem de programação focada em segurança, velocidade e concorrência.",
+    "ano": 2010,
+    "link": "https://www.rust-lang.org/pt-BR"
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Kotlin é uma linguagem de programação moderna que torna os desenvolvedores mais felizes e produtivos.",
+    "ano": 2011,
+    "link": "https://kotlinlang.org/"
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Ambiente de execução JavaScript open-source, que permite construir aplicações de rede escaláveis e backend.",
+    "data_criacao": "2009",
+    "link": "https://nodejs.org/",
+    "tags": [
+      "Runtime",
+      "Backend",
+      "Assíncrono",
+      "Servidor"
+    ]
+  },
+  {
+    "nome": "React",
+    "descricao": "Biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário, mantida pelo Facebook.",
+    "data_criacao": "2013",
+    "link": "https://reactjs.org/",
+    "tags": [
+      "Biblioteca",
+      "Frontend",
+      "UI",
+      "Componentes"
+    ]
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Plataforma de código aberto para desenvolver, enviar e executar aplicações dentro de containers leves e portáteis.",
+    "data_criacao": "2013",
+    "link": "https://www.docker.com/",
+    "tags": [
+      "Containers",
+      "Virtualização",
+      "DevOps",
+      "Ferramenta"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL orientado a documentos, conhecido por sua flexibilidade e escalabilidade horizontal.",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "tags": [
+      "Banco de Dados",
+      "NoSQL",
+      "Documentos",
+      "Persistência"
+    ]
+  },
+  {
+    "nome": "Kubernetes",
+    "descricao": "Sistema de orquestração de containers open-source, originalmente desenvolvido pelo Google, para automatizar a implantação e o gerenciamento de aplicações.",
+    "data_criacao": "2014",
+    "link": "https://kubernetes.io/",
+    "tags": [
+      "Orquestração",
+      "DevOps",
+      "Containers",
+      "Cloud"
+    ]
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Framework progressivo para a construção de interfaces de usuário. Focado na simplicidade e facilidade de integração.",
+    "data_criacao": "2014",
+    "link": "https://vuejs.org/",
+    "tags": [
+      "Framework",
+      "Frontend",
+      "Reatividade",
+      "SPA"
+    ]
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Linguagem de programação multiparadigma, desenvolvida pela Apple para o desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS.",
+    "data_criacao": "2014",
+    "link": "https://www.swift.org/",
+    "tags": [
+      "Linguagem de Programação",
+      "Mobile",
+      "iOS",
+      "Apple"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "Sistema gerenciador de banco de dados objeto-relacional de código aberto, conhecido por sua robustez e conformidade com SQL.",
+    "data_criacao": "1996",
+    "link": "https://www.postgresql.org/",
+    "tags": [
+      "Banco de Dados",
+      "SQL",
+      "Open Source",
+      "Relacional"
+    ]
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Framework que simplifica a configuração e o desenvolvimento de novas aplicações baseadas em Spring, minimizando a necessidade de boilerplate.",
+    "data_criacao": "2014",
+    "link": "https://spring.io/projects/spring-boot",
+    "tags": [
+      "Framework",
+      "Backend",
+      "Microserviços",
+      "Ecossistema Java"
+    ]
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Framework de desenvolvimento web mantido pelo Google para a construção de Single Page Applications (SPAs) dinâmicas e complexas.",
+    "data_criacao": "2016",
+    "link": "https://angular.io/",
+    "tags": [
+      "Framework",
+      "Frontend",
+      "SPA",
+      "Google"
+    ]
+  },
+  {
+    "nome": "Django",
+    "descricao": "Framework web de alto nível que encoraja o desenvolvimento rápido e design limpo e pragmático.",
+    "data_criacao": "2005",
+    "link": "https://www.djangoproject.com/",
+    "tags": [
+      "Framework",
+      "Backend",
+      "Web",
+      "ORM"
+    ]
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Estrutura de dados em memória, usada como cache, banco de dados e message broker, conhecida por sua velocidade.",
+    "data_criacao": "2009",
+    "link": "https://redis.io/",
+    "tags": [
+      "Cache",
+      "Banco de Dados",
+      "Key-Value",
+      "Performance"
+    ]
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Ferramenta de código aberto para infraestrutura como código (IaC), permitindo definir e provisionar recursos de infraestrutura de forma declarativa.",
+    "data_criacao": "2014",
+    "link": "https://www.terraform.io/",
+    "tags": [
+      "IaC",
+      "DevOps",
+      "Cloud",
+      "Provisionamento"
+    ]
+  },
+  {
+    "nome": "Apache Kafka",
+    "descricao": "Plataforma de streaming de eventos distribuída de alto desempenho, usada para construir pipelines de dados em tempo real.",
+    "data_criacao": "2011",
+    "link": "https://kafka.apache.org/",
+    "tags": [
+      "Streaming de Dados",
+      "Mensageria",
+      "Big Data",
+      "Eventos"
+    ]
+  },
+  {
+    "nome": "TensorFlow",
+    "descricao": "Biblioteca de software livre para aprendizado de máquina, desenvolvida pelo Google, amplamente utilizada em pesquisa e produção.",
+    "data_criacao": "2015",
+    "link": "https://www.tensorflow.org/",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning",
+      "IA",
+      "Biblioteca"
+    ]
+  },
+  {
+    "nome": "Flutter",
+    "descricao": "Kit de desenvolvimento de UI do Google para a criação de aplicativos compilados nativamente para mobile, web e desktop a partir de uma única base de código.",
+    "data_criacao": "2017",
+    "link": "https://flutter.dev/",
+    "tags": [
+      "Framework",
+      "Mobile",
+      "Multiplataforma",
+      "UI"
+    ]
+  },
+  {
+    "nome": "Scrum",
+    "descricao": "Framework ágil para gerenciamento de projetos complexos, focado na entrega incremental e adaptativa do produto.",
+    "data_criacao": "1990",
+    "link": "https://www.scrum.org/",
+    "tags": [
+      "Metodologia Ágil",
+      "Gerenciamento de Projetos",
+      "Framework",
+      "Desenvolvimento"
+    ]
+  },
+  {
+    "nome": "Tailwind CSS",
+    "descricao": "Framework CSS utility-first para construir designs rapidamente, sem sair do seu HTML.",
+    "data_criacao": "2017",
+    "link": "https://tailwindcss.com/",
+    "tags": [
+      "Framework CSS",
+      "Frontend",
+      "Utility-first",
+      "Estilização"
+    ]
+  },
+  {
+    "nome": "C",
+    "descricao": "Linguagem de programação estruturada de propósito geral, que influenciou a criação de muitas outras linguagens modernas.",
+    "data_criacao": "1972",
+    "link": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "tags": [
+      "Linguagem de Programação",
+      "Sistemas Operacionais",
+      "Performance",
+      "Baixo Nível"
+    ]
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Servidor de automação open-source que suporta a construção, implantação e automação de qualquer projeto.",
+    "data_criacao": "2011",
+    "link": "https://www.jenkins.io/",
+    "tags": [
+      "CI/CD",
+      "Automação",
+      "DevOps",
+      "Integração Contínua"
+    ]
+  },
+  {
+    "nome": "WebAssembly",
+    "descricao": "Formato de instrução binária para uma máquina virtual baseada em stack, projetado para ser um alvo de compilação portátil para linguagens de alto nível na web.",
+    "data_criacao": "2017",
+    "link": "https://webassembly.org/",
+    "tags": [
+      "Web",
+      "Performance",
+      "Binário",
+      "Runtime"
+    ]
+  },
+  {
+    "nome": "Neo4j",
+    "descricao": "Sistema de gerenciamento de banco de dados de grafos, implementando o modelo de propriedades de grafos, otimizado para consultas de relacionamentos complexos.",
+    "data_criacao": "2007",
+    "link": "https://neo4j.com/",
+    "tags": [
+      "Banco de Dados",
+      "Grafos",
+      "NoSQL",
+      "Big Data"
+    ]
+  },
+  {
+    "nome": "RabbitMQ",
+    "descricao": "Message broker de código aberto que implementa o Advanced Message Queuing Protocol (AMQP), utilizado para comunicação assíncrona entre serviços.",
+    "data_criacao": "2007",
+    "link": "https://www.rabbitmq.com/",
+    "tags": [
+      "Message Broker",
+      "Filas",
+      "Assíncrono",
+      "Mensageria"
+    ]
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "Linguagem de consulta de dados para APIs, desenvolvida pelo Facebook, que permite aos clientes solicitar exatamente os dados de que precisam.",
+    "data_criacao": "2015",
+    "link": "https://graphql.org/",
+    "tags": [
+      "API",
+      "Protocolo",
+      "Consulta de Dados",
+      "Backend"
+    ]
+  },
+  {
+    "nome": "Amazon S3",
+    "descricao": "Serviço de armazenamento de objetos da AWS, oferecendo escalabilidade, disponibilidade de dados e segurança de nível industrial.",
+    "data_criacao": "2006",
+    "link": "https://aws.amazon.com/s3/",
+    "tags": [
+      "Cloud Computing",
+      "Armazenamento",
+      "AWS",
+      "Serviço Web"
+    ]
+  }
+]

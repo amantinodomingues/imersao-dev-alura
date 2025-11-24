@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de conhecimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Base de conhecimento</h1>
+    </header>
+
+    <main>
+        <!-- Linha com formulário à esquerda e busca à direita -->
+        <section class="topo">
+            <div class="cadastro-container">
+                <h3>Novo cadastro</h3>
+
+                <input id="novo-nome" type="text" placeholder="Nome da tecnologia" required>
+                <input id="novo-ano" type="text" placeholder="Ano de criação (opcional)">
+                <textarea id="novo-descricao" placeholder="Descrição" required></textarea>
+                <input id="novo-link" type="text" placeholder="Link (opcional)">
+                <button id="btn-cadastrar">Cadastrar</button>
+            </div>
+
+            <div class="search-container">
+                <input type="text" list="sugestoes-linguagens" placeholder="Digite uma linguagem de programação">
+                <button id="botao-busca" type="button">Buscar</button>
+                <datalist id="sugestoes-linguagens"></datalist>
+            </div>
+        </section>
+
+        <!-- Resultados -->
+        <section class="card-container" aria-live="polite">
+            <!-- os cards são preenchidos via JS -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-location">
+            Brasil
+        </div>
+        <ul class="footer-links">
+            <li>
+                <a href="https://github.com/guilhermeonrails" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">Alura</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
